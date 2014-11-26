@@ -20,3 +20,5 @@ Route::get('/', function()
 Route::get('/line', 'ScriptureController@showLine');
 Route::get('/line/{id}', 'ScriptureController@showLine');
 
+Route::get('/page', 'ScriptureController@showPage');
+Route::get('/page/{id}', 'ScriptureController@showPage');
