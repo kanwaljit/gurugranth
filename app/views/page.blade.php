@@ -3,7 +3,7 @@
 @section('content')
 
     @foreach ($tuks as $tuk)
-        <p>{{{ $tuk->text }}}<p>
+        {{{ $tuk->text }}}<br/>
     @endforeach
    
 @stop
