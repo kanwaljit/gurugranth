@@ -15,3 +15,8 @@ Route::get('/', function()
 {
 	return View::make('hello');
 });
+
+
+Route::get('/line', 'ScriptureController@showLine');
+Route::get('/line/{id}', 'ScriptureController@showLine');
+
